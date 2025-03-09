@@ -66,8 +66,13 @@ body {
     background-color:#272727;
     
 }
-
-
 footer{
-    background-color: rgba(34, 212, 253, 1);
+    background-color: #22d4fd;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
 }
