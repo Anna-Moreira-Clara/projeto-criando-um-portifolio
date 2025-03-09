@@ -37,17 +37,37 @@ body {
 }
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
 }
 .apresentacao__links__link{
-    background-color: rgba(34, 212, 253, 1);
-    color: rgba(0, 0, 0, 1);
-    width: 280px;
+    /* background-color: rgba(34, 212, 253, 1); */ /* Azul */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #f6f6f6;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border: 2px solid #22d4fd;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+.apresentacao__links__link:hover{
+    background-color:#272727;
+    
+}
+
+
+footer{
+    background-color: rgba(34, 212, 253, 1);
 }
